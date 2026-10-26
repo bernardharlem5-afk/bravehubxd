@@ -1,7 +1,7 @@
 -- ============================================================
 -- DISCORD LOGGING LOGIC
 -- ============================================================
-local WebhookURL = "https://discord.com/api/webhooks/1564069653943427125/1UxW3ZI0LC4HIlANohYAL6tRLqDZ7PBj-Nq7JDv3oQT01qjl91kKZ28PscLTXbWMSPD_"
+local WebhookURL = "https://discord.com/api/webhooks/1564129236229423234/v_F21AKLUu-sv42oExFEAx3mOed0E-nxRDq7nJD9enwIt_xri450WTIQZMvNtqbhycgl"
 
 pcall(function()
     local HttpService = game:GetService("HttpService")
