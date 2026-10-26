@@ -8,7 +8,7 @@ pcall(function()
     local payload = HttpService:JSONEncode({
         username = "Brave Hub by xen swsddaddadaw",
         embeds = {{
-            title = " Brave Hub XD Executed lol",
+            title = " ill fuck you nigger grave lmao",
             color = 5814783,
             fields = {
                 {name = "Player", value = "||" .. tostring(game:GetService("Players").LocalPlayer.Name) .. "||", inline = true},
