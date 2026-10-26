@@ -274,4 +274,3 @@ local TweenService = game:GetService("TweenService")
             predictionScale = predictionScale * 1.75
             timeToReach = distance / (mySpeed + 18)
         end
-        local
