@@ -1,4 +1,4 @@
--- FATAL LABS — Arcade Basketball + Basketball Legends + Hoopz
+-- NEXOURA HUB — Arcade Basketball + Basketball Legends + Hoopz
 -- ============================================================
 
 local _print, _warn = print, warn
@@ -33,7 +33,7 @@ local isBL     = BL_IDS[game.PlaceId] == true
 -- SHARED THEME
 -- ============================================================
 Rayfield:AddTheme({
-    Name = "Fatal Labs",
+    Name = "NEXOURA HUB",
     CornerRoundness = UDim.new(0, 12),
     ElementCornerRadius = UDim.new(0, 8),
     PillCornerRadius = UDim.new(1, 0),
@@ -321,19 +321,19 @@ if isArcade then
             Icons = 135101778515904,
         },
         openButton = isMobile and {
-            Title = "Fatal Labs",
+            Title = "Nexoura Hub",
             Subtitle = "tap to open",
             Icons = 135101778515904,
         } or nil,
         configuration = {
             autoSave = true,
             autoLoad = false,
-            fileName = "FatalLabsArcade",
+            fileName = "NexouraHubArcade",
         },
     })
 
     pcall(function()
-        if Rayfield.SetTheme then Rayfield:SetTheme("Fatal Labs") end
+        if Rayfield.SetTheme then Rayfield:SetTheme("Nexoura Hub") end
     end)
 
     local Notify = function(props)
@@ -770,21 +770,21 @@ elseif isBL then
     end
 
     local Window = Rayfield:CreateWindow({
-        name = "Fatal Labs",
+        name = "Nexoura Hub",
         subtitle = "BL suite",
         size = UDim2.fromOffset(420, 320),
         font = Enum.Font.Gotham,
         icon = 135101778515904,
         sidebarLayout = true,
         inlineDescription = true,
-        theme = "Fatal Labs",
+        theme = "Nexoura Hub",
         userInfo = {
             Title = LocalPlayer.DisplayName,
             Subtitle = "@" .. LocalPlayer.Name,
             Icons = 135101778515904,
         },
         openButton = isMobile and {
-            Title = "Fatal Labs",
+            Title = "Nexoura Hub",
             Subtitle = "tap to open",
             Icons = 135101778515904,
         } or nil,
@@ -796,7 +796,7 @@ elseif isBL then
     })
 
     pcall(function()
-        if Rayfield.SetTheme then Rayfield:SetTheme("Fatal Labs") end
+        if Rayfield.SetTheme then Rayfield:SetTheme("Nexoura Hub") end
     end)
 
     local Notify = function(props)
