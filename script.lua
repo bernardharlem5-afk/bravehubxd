@@ -4,7 +4,7 @@ local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
-    Title = 'Fatal Hub | Da Hood                                         by xen',
+    Title = 'Saint Hub | Da Hood  - Developed by Xen',
     Center = true, -- Set Center to true if you want the menu to appear in the center
     AutoShow = true, -- Set AutoShow to true if you want the menu to appear when it is created
     TabPadding = 8,
